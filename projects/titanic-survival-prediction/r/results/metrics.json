@@ -1,0 +1,80 @@
+{
+  "random_state": 42,
+  "cross_validation": {
+    "logistic_regression": {
+      "accuracy": {
+        "mean": 0.82832213923,
+        "std": 0.03998133196
+      },
+      "precision": {
+        "mean": 0.79124180519,
+        "std": 0.057971824507
+      },
+      "recall": {
+        "mean": 0.75490196078,
+        "std": 0.083977046898
+      },
+      "f1": {
+        "mean": 0.77043091487,
+        "std": 0.058264063204
+      },
+      "roc_auc": {
+        "mean": 0.86939351989,
+        "std": 0.035909711607
+      }
+    },
+    "random_forest": {
+      "accuracy": {
+        "mean": 0.83056933024,
+        "std": 0.032760927553
+      },
+      "precision": {
+        "mean": 0.80667066864,
+        "std": 0.064483607141
+      },
+      "recall": {
+        "mean": 0.74002557545,
+        "std": 0.044700772499
+      },
+      "f1": {
+        "mean": 0.77068387492,
+        "std": 0.041355709354
+      },
+      "roc_auc": {
+        "mean": 0.87967563549,
+        "std": 0.035001516991
+      }
+    },
+    "gradient_boosting": {
+      "accuracy": {
+        "mean": 0.82383403427,
+        "std": 0.032810361865
+      },
+      "precision": {
+        "mean": 0.80448264154,
+        "std": 0.061813687243
+      },
+      "recall": {
+        "mean": 0.71965046888,
+        "std": 0.05925929257
+      },
+      "f1": {
+        "mean": 0.75806758585,
+        "std": 0.045421864079
+      },
+      "roc_auc": {
+        "mean": 0.88067555053,
+        "std": 0.034883596906
+      }
+    }
+  },
+  "best_model": "random_forest",
+  "holdout_metrics": {
+    "accuracy": 0.82485875706,
+    "precision": 0.86274509804,
+    "recall": 0.64705882353,
+    "f1": 0.73949579832,
+    "roc_auc": 0.87358337831
+  },
+  "feature_columns": ["Pclass", "Sex", "Age", "Fare", "Embarked", "FamilySize", "IsAlone", "Title", "HasCabin"]
+}

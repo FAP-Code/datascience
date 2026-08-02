@@ -130,3 +130,15 @@ Titanic benchmarks. The exercise validated this repository's project
 structure, templates, and reproducibility conventions end to end and is
 ready to serve as the template for future replication and original-analysis
 projects here.
+
+## R Implementation
+
+An independent R reimplementation of this same pipeline lives in
+[`r/`](r/) — same dataset, same methodology, same random seed. See
+[`r/README.md`](r/README.md) for details and results. It's a useful
+cross-check: cleaning output matches the Python version exactly row-for-row,
+and cross-validated model performance lands in the same ~82–84% accuracy
+range, with Random Forest (rather than Gradient Boosting) narrowly winning
+there — an expected effect of independent RNG streams and slightly
+different default hyperparameters between `sklearn` and R's modelling
+packages, not a discrepancy in methodology.

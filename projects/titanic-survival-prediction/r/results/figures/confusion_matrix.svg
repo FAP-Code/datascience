@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' class='svglite' width='374.40pt' height='302.40pt' viewBox='0 0 374.40 302.40'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: none;'/>
+<defs>
+  <clipPath id='cpMC4wMHwzNzQuNDB8MC4wMHwzMDIuNDA='>
+    <rect x='0.00' y='0.00' width='374.40' height='302.40' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHwzNzQuNDB8MC4wMHwzMDIuNDA=)'>
+</g>
+<defs>
+  <clipPath id='cpOTguNDZ8MzY4LjQyfDI1LjQ0fDI2Ny44Mg=='>
+    <rect x='98.46' y='25.44' width='269.96' height='242.38' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpOTguNDZ8MzY4LjQyfDI1LjQ0fDI2Ny44Mg==)'>
+<rect x='110.73' y='36.46' width='122.71' height='110.17' style='stroke-width: 2.13; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #1F3B57;' />
+<rect x='233.44' y='36.46' width='122.71' height='110.17' style='stroke-width: 2.13; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #EAF2FC;' />
+<rect x='110.73' y='146.63' width='122.71' height='110.17' style='stroke-width: 2.13; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #C4CEDC;' />
+<rect x='233.44' y='146.63' width='122.71' height='110.17' style='stroke-width: 2.13; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #98A6B8;' />
+<text x='172.09' y='97.77' text-anchor='middle' style='font-size: 17.07px;fill: #0B0B0B; font-family: "Liberation Sans";' textLength='32.57px' lengthAdjust='spacingAndGlyphs'>102</text>
+<text x='294.80' y='97.77' text-anchor='middle' style='font-size: 17.07px;fill: #0B0B0B; font-family: "Liberation Sans";' textLength='10.86px' lengthAdjust='spacingAndGlyphs'>7</text>
+<text x='172.09' y='207.94' text-anchor='middle' style='font-size: 17.07px;fill: #0B0B0B; font-family: "Liberation Sans";' textLength='21.72px' lengthAdjust='spacingAndGlyphs'>24</text>
+<text x='294.80' y='207.94' text-anchor='middle' style='font-size: 17.07px;fill: #0B0B0B; font-family: "Liberation Sans";' textLength='21.72px' lengthAdjust='spacingAndGlyphs'>44</text>
+</g>
+<g clip-path='url(#cpMC4wMHwzNzQuNDB8MC4wMHwzMDIuNDA=)'>
+<text x='93.08' y='205.21' text-anchor='end' style='font-size: 9.60px;fill: #4D4D4D; font-family: "Liberation Sans";' textLength='42.12px' lengthAdjust='spacingAndGlyphs'>Survived</text>
+<text x='93.08' y='95.04' text-anchor='end' style='font-size: 9.60px;fill: #4D4D4D; font-family: "Liberation Sans";' textLength='72.87px' lengthAdjust='spacingAndGlyphs'>Did not survive</text>
+<text x='172.09' y='280.19' text-anchor='middle' style='font-size: 9.60px;fill: #4D4D4D; font-family: "Liberation Sans";' textLength='72.87px' lengthAdjust='spacingAndGlyphs'>Did not survive</text>
+<text x='294.80' y='280.19' text-anchor='middle' style='font-size: 9.60px;fill: #4D4D4D; font-family: "Liberation Sans";' textLength='42.12px' lengthAdjust='spacingAndGlyphs'>Survived</text>
+<text x='233.44' y='293.92' text-anchor='middle' style='font-size: 12.00px; font-family: "Liberation Sans";' textLength='89.19px' lengthAdjust='spacingAndGlyphs'>Predicted label</text>
+<text transform='translate(14.73,146.63) rotate(-90)' text-anchor='middle' style='font-size: 12.00px; font-family: "Liberation Sans";' textLength='58.34px' lengthAdjust='spacingAndGlyphs'>True label</text>
+<text x='98.46' y='16.47' style='font-size: 14.40px; font-weight: bold; font-family: "Liberation Sans";' textLength='254.71px' lengthAdjust='spacingAndGlyphs'>Confusion Matrix (held-out set)</text>
+</g>
+</svg>
