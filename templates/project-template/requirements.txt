@@ -1,0 +1,5 @@
+# Pin exact versions once the project's dependencies are known, e.g.:
+# pandas==2.2.2
+# numpy==1.26.4
+# scikit-learn==1.5.0
+# matplotlib==3.9.0

@@ -1,0 +1,48 @@
+{
+  "n_countries": 65,
+  "vax_snapshot_date": "2021-07-01",
+  "outcome_window": "2021-08-01 to 2021-10-31",
+  "correlation": {
+    "pearson_r_vax_vs_log_death": -0.18325773662019862,
+    "pearson_p_value": 0.14395788447392768,
+    "spearman_r_vax_vs_death": -0.11027097902097902,
+    "spearman_p_value": 0.38187111728478174
+  },
+  "regression": {
+    "formula": "log1p(delta_wave_death_rate) ~ vax_rate_2021_07_01 + median_age + log(gdp_per_capita)",
+    "r_squared": 0.07640270948482242,
+    "adj_r_squared": 0.030979891918502145,
+    "f_statistic": 1.6820336909587261,
+    "f_p_value": 0.1802277669569103,
+    "coefficients": {
+      "const": {
+        "coef": 1.9723539056162163,
+        "std_err": 1.0375447508160305,
+        "p_value": 0.06203148387201811,
+        "ci_low": -0.10234504860321536,
+        "ci_high": 4.047052859835648
+      },
+      "vax_rate_2021_07_01": {
+        "coef": -0.005274173424458254,
+        "std_err": 0.0052435214889543814,
+        "p_value": 0.31846320546138807,
+        "ci_low": -0.015759242662199215,
+        "ci_high": 0.005210895813282708
+      },
+      "median_age": {
+        "coef": 0.02235438298322703,
+        "std_err": 0.01354705047125968,
+        "p_value": 0.10405689710623531,
+        "ci_low": -0.004734618646220632,
+        "ci_high": 0.049443384612674696
+      },
+      "log_gdp_per_capita": {
+        "coef": -0.17116582584146525,
+        "std_err": 0.13444566917936768,
+        "p_value": 0.2078051032591291,
+        "ci_low": -0.4400065568329561,
+        "ci_high": 0.09767490515002555
+      }
+    }
+  }
+}
