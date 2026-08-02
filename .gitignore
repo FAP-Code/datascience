@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.Rproj.user/
+.Rdata
+renv/library/
+
+# Environments
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Data (opt in per-project by removing/overriding as needed)
+*.log
+
+# Jupyter
+*-checkpoint.ipynb
